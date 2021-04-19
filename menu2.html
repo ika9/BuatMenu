@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .menu_ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: indigo;
+    }
+    
+    .menu_ul li {
+        float: left;
+    }
+    
+    .menu_ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .menu_ul li a:hover {
+        background-color: darkgreen;
+    }
+</style>
+<body>
+
+    <h1>Buat Menu</h1>
+  
+    <ul class="menu_ul">
+    <ul class="menu_ul li">
+    <ul class="menu_ul a">
+
+        <li><a href="#utama">Laman Utama</a></li>
+        <li><a href="#produk">Senarai Produk</a></li>
+        <li><a href="#tempah">Borang Tempahan</a></li>
+        <li><a href="#hubungi">Hubungi Kami</a></li>
+
+    </ul>
+    </ul>
+    </ul>
+    
+    <form>
+        <label>Username</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label>Password</label><br><br>
+        <input type="password"id="password" name="password" required><br><br>
+        <input id="prodId" name="prodId" type="hidden" value="xm234jq"><br>
+
+        <button>Log in</button><br>
+    </form> 
+
+</body>
+</html>
